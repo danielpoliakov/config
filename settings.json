@@ -1,0 +1,205 @@
+{
+    // terminal
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontWeightBold": "normal",
+    "terminal.external.osxExec": "iTerm.app",
+
+    // python
+    "python.defaultInterpreterPath": "/Users/daniel/Dev/.venv/bin/python",
+    "python.languageServer": "Pylance",
+    "python.analysis.ignore": ["**"],
+    "ruff.nativeServer": "on",
+    "mypy.dmypyExecutable": "/Users/daniel/Dev/.venv/bin/dmypy",
+    "mypy.runUsingActiveInterpreter": true,
+
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports.ruff": "always"
+        }
+    },
+
+    "[toml]": {
+        "editor.formatOnSave": true,
+    },
+
+    // editor font
+    "editor.fontFamily": "FiraCode Nerd Font Mono",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "normal",
+    "editor.fontSize": 13,
+
+    // editor fun
+    "editor.codeLens": true,
+    "editor.lightbulb.enabled": "off",
+
+    // zen
+    "zenMode.hideLineNumbers": false,
+    "zenMode.showTabs": "multiple",
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "none",
+    "editor.renderControlCharacters": false,
+    "editor.renderWhitespace": "none",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.scrollbar.horizontalScrollbarSize": 0,
+    "editor.smoothScrolling": true,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.occurrencesHighlight": "off",
+    "editor.overviewRulerBorder": false,
+    "editor.guides.indentation": false,
+    "editor.suggest.showStatusBar": false,
+    "explorer.openEditors.visible": 1,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.sideBar.location": "right",
+    "zenMode.centerLayout": false,
+
+    // notebook
+    "notebook.compactView": true,
+    "notebook.breadcrumbs.showCodeCells": false,
+    "notebook.cellFocusIndicator": "gutter",
+    "notebook.codeActionsOnSave": {},
+    "notebook.confirmDeleteRunningCell": true,
+    "notebook.dragAndDropEnabled": true,
+    "notebook.cellToolbarVisibility": "hover",
+    "notebook.showCellStatusBar": "hidden",
+    "notebook.consolidatedRunButton": true,
+    "notebook.globalToolbarShowLabel": "never",
+    "notebook.globalToolbar": true,
+    "notebook.insertToolbarLocation": "hidden",
+
+    "notebook.cellToolbarLocation": {
+        // "default": "hidden"
+    },
+
+
+    // theme
+    "workbench.colorTheme": "Ayu Mirage",
+    "workbench.iconTheme": "ayu",
+
+    // custom colors
+    "workbench.colorCustomizations": {
+        "editorGroup.border": "#00000000",
+        "editorGroupHeader.tabsBackground": "#00000000",
+        "editorGroupHeader.tabsBorder": "#00000000",
+        "editorGroupHeader.noTabsBackground": "#00000000",
+        "editorGroupHeader.border": "#00000000",
+        "editorGroup.emptyBackground": "#00000000",
+        "editorGroup.focusedEmptyBorder": "#00000000",
+        "editorGroupHeader.tabsEmptyBackground": "#00000000",
+        "editorGroupHeader.tabsEmptyBorder": "#00000000",
+        "scrollbar.shadow": "#00000000",
+        "editorOverviewRuler.addedForeground": "#00000000",
+        "editorOverviewRuler.deletedForeground": "#00000000",
+        "editorOverviewRuler.modifiedForeground": "#00000000",
+        "editorOverviewRuler.errorForeground": "#00000000",
+        "editorOverviewRuler.warningForeground": "#00000000",
+        "editorOverviewRuler.infoForeground": "#00000000",
+        "editorOverviewRuler.bracketMatchForeground": "#00000000",
+        "editorOverviewRuler.commonContentForeground": "#00000000",
+        "editorOverviewRuler.currentContentForeground": "#00000000",
+        "editorOverviewRuler.incomingContentForeground": "#00000000",
+        "editorOverviewRuler.findMatchForeground": "#00000000",
+        "editorOverviewRuler.selectionHighlightForeground": "#00000000",
+        "editorOverviewRuler.wordHighlightForeground": "#00000000",
+        "editorOverviewRuler.wordHighlightStrongForeground": "#00000000",
+        "editorOverviewRuler.rangeHighlightForeground": "#00000000",
+        "editorOverviewRuler.border": "#00000000",
+        "scrollbarSlider.background": "#00000000",
+        "notebook.cellBorderColor": "#00000000",
+        "notebook.cellInsertionIndicator":"#00000000",
+        "notebook.cellToolbarSeparator":"#00000000",
+        "tab.border": "#00000000",
+        "tab.activeBorder": "#00000000",
+        "tab.hoverBorder": "#00000000",
+        "tab.activeBorderTop": "#00000000",
+        "tab.unfocusedActiveBorder": "#00000000",
+        "tab.unfocusedHoverBackground": "#00000000",
+        "titleBar.border": "#00000000",
+
+        "tab.inactiveForeground":"#707a8c",
+        "tab.activeForeground":"#707a8c",
+
+        // "editor.background":"#101524",
+        // "notebook.cellEditorBackground": "#101524",
+        // "tab.activeBackground": "#101524",
+        // "tab.inactiveBackground": "#101524",
+
+        "editor.background": "#15191e",
+        "notebook.cellEditorBackground": "#15191e",
+        "tab.activeBackground": "#15191e",
+        "tab.inactiveBackground": "#15191e",
+        "sideBar.background": "#15191e",
+        "button.background": "#15191e",
+        "activityBar.background": "#15191e",
+        "profileBadge.background": "#15191e",
+        "statusBar.background": "#15191e",
+        "sideBar.border": "#15191e",
+        "statusBar.border": "#15191e",
+        "activityBar.border": "#15191e",
+        "panel.background": "#15191e",
+        "panel.border": "#15191e",
+        "menu.background": "#15191e",
+        "menu.border": "#15191e",
+        "terminal.background": "#15191e",
+        "dropdown.background": "#15191e",
+        "breadcrumb.background": "#15191e",
+        "list.dropBackground": "#15191e",
+        "sideBarSectionHeader.background": "#15191e",
+        "sideBarSectionHeader.border": "#15191e",
+        "tree.indentGuidesStroke": "#00000000",
+        "commandCenter.background": "#15191e",
+        "commandCenter.activeBackground": "#15191e",
+        "quickInput.background": "#15191e",
+        "input.background": "#15191e",
+        "input.border": "#15191e",
+        "editor.foreground": "#dbdbdb"
+    },
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "ref.matchtext",
+                "settings": {
+                    "foreground": "#fff"
+                }
+            },
+            {
+                "scope": "variable",
+                "settings": {
+                    "foreground": "#dbdbdb"
+                }
+            },
+            {
+                "scope": "string.quoted.docstring.multi.python",
+                "settings": {
+                    "foreground": "#b8cfe680"
+                }
+            }
+        ]
+    },
+
+
+    // intellisense
+    "github.copilot.editor.enableAutoCompletions": false,
+    "editor.parameterHints.enabled": false,
+    "editor.suggestSelection": "first",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+
+
+    // other
+    "window.restoreFullscreen": true,
+    "python.venvFolders": [
+        "~/Dev/"
+    ],
+    "breadcrumbs.enabled": false,
+}
